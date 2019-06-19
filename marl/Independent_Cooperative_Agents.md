@@ -10,13 +10,13 @@
 
 ### What?
 
-* Given the same number of RL agents, will <i>cooperative agents outperform independent agents</i> who do not communicate during learning?
+* Given the same number of RL agents, will <i><b>cooperative agents outperform independent agents</b></i> who do not communicate during learning?
 * What is the price for such cooperation?
 
-### Expectations
+### Expectation
 
-* Multiple agents together will outperform any single agent due to the fact that they have more resources and better chances of receiving rewards.
-* Ideally, intelligent agents would learn when to cooperate and which cooperative method to use to achieve maximum gain.
+* Multiple agents will outperform any single agent due to the fact that they have more resources and better chances of receiving rewards.
+* Ideally, intelligent agents would learn <i>when to cooperate</i> and <i>which cooperative method</i> to use for maximum gain.
 
 ### How?
 
