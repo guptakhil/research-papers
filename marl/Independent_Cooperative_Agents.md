@@ -32,11 +32,11 @@ CS-3. Learned decision policies.
 
 * Each RL agent uses one-step Q-learning algorithm. The agent selects each action <i>a</i> with a probability given by the Boltzmann distribution:
 
-<img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%207.24.01%20PM.png" height="80" width="360"></img>
+    <img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%207.24.01%20PM.png" height="80" width="360"></img>
 
 * In each time step, the agent updates Q(x, a) by recursively discounting future utilities and weighing them by positive learning rate <i>beta</i>.
   
-<img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%207.25.51%20PM.png" height="150" width="500"></img>
+    <img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%207.25.51%20PM.png" height="150" width="500"></img>
 
 ### Task Description for Case Study
 
