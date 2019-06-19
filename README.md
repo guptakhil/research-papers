@@ -2,4 +2,4 @@
 
 ## Reinforcement Learning
 
-- <mark>ICML</mark> <mark>1993</mark>: Multi-Agent Reinforcement Learning: Independent vs. Cooperative Agents
+- <b>ICML 1993</b>: Multi-Agent Reinforcement Learning: Independent vs. Cooperative Agents
