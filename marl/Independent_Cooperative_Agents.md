@@ -22,7 +22,7 @@
 
 > Compares performance of <i><b>n</b></i> cooperative agents with that of <i><b>n</b></i> independent agents.
 
-Using independent agents as a benchmark, cooperative agents can communicate in these forms:
+Using independent agents as a benchmark, cooperative agents have been made to communicate via:
 
 CS-1. Instantaneous information such as sensation (S), actions (A), or rewards (R).<br>
 CS-2. Episodes that are sequences of SAR triplets experienced by agents.<br>
@@ -52,8 +52,8 @@ CS-3. Learned decision policies.
 * Each run consists of a sequence of trials. 
     * Each trial ended when the first prey was captured. 
     * Each run was given a sufficient number of trials until the decision policies of hunters converged, i.e. the performance of hunters stabilized.<br>
-* After convergence, the average number of time steps per trial where actions were selected by the highest Q value, over at least 1000 trials. 
-    * Results averaged over at least 5 runs.
+* After convergence, the average number of time steps per trial where actions were selected by the highest Q-value, over at least 1000 trials. 
+    * Results were averaged over at least 5 runs.
 
 #### Case Study 1 - <i>Sharing Sensation</i>
 
@@ -74,9 +74,9 @@ Agents may use the same decision policy or exchange their individual policies at
 
 - When the two hunters used the same policy, they converged much quicker than two independent agents.
 - If agents perform the same task, their decision policies during learning can differ because they may have explored the different parts of a state space. 
-    - They can complement each other by exchanging policies and use what the other agent had already learned for its own benefit. 
-    - Assumed that agents average their policies at certain frequencies. (10, 50 and 200 steps)
-- <b>Caveat:</b> Information communicated by each policy-exchanging agent per step is bounded by <i>(N-1) * F * P</i> where N = hunters, P = size of policy, F = frequency of policy exchanging. 
+    - They can complement each other by exchanging policies and using what the other agent had already learned for its own benefit.
+    - It has been assumed that agents average their policies at certain frequencies. (10, 50 and 200 steps)
+- <b>Caveat:</b> Information communicated by each policy-exchanging agent per step is bounded by <i>(N-1) * F * P</i> where N: hunters, P: size of policy, F: frequency of policy exchanging. 
     - When P and F are large, communication can be costly.
     - Policy exchanging can selectively choose what decisions of the other agent to consider.
 
