@@ -1,4 +1,5 @@
-# research-papers
+# Research Papers
+Short summaries of some of the research papers in the field of Artificial Intelligence and Machine Learning.
 
 ## Reinforcement Learning
 
