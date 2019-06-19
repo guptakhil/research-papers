@@ -80,15 +80,16 @@ Agents may use the same decision policy or exchange their individual policies at
     - When P and F are large, communication can be costly.
     - Policy exchanging can selectively choose what decisions of the other agent to consider.
 
-Episode refers to the capture of prey by a hunter. Post that, the entire solution is transfered. Exchanging episodes	can be used by heterogeneous RL agents i.e. with different visual field depths.
+Episode refers to the capture of prey by a hunter.<br>
+Post that, the entire solution is transfered. Exchanging episodes can be used by heterogeneous RL agents i.e. with different visual field depths.
 
 <img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%208.18.32%20PM.png" height="350" width="350"></img>
 
 #### Case Study 3 - <i>Joint Tasks</i>
 
 - Prey can only be captured by two hunters who either occupy the same cell as prey or are next to the prey.
-- Hunters cooperate by either passively observing each other or actively sharing their sensations and locations. It’s demonstrated that cooperative agents can learn to perform the joint task significantly better than independent agents although they start slowly.<br>
-Problem with independent hunters is that they ignore each other. They start slow, but such passively-observing hunters began to overtake the independent hunters after 400 trials, eventually getting reduced to 49 average steps. SImilar is observed for mutually scouting hunters.
+- Hunters cooperate by either <b>passively observing each other</b> or <b>actively sharing their sensations and locations</b>. It’s demonstrated that cooperative agents can learn to perform the joint task significantly better than independent agents although they start slowly.<br>
+- Problem with independent hunters is that they ignore each other. They start slow, but such passively-observing hunters began to overtake the independent hunters after 400 trials, eventually getting reduced to 49 average steps. SImilar is observed for mutually scouting hunters.
 
 <img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%208.26.46%20PM.png" height="400" width="800"></img>
 
@@ -96,9 +97,9 @@ Even for the 1 prey-task, one may feel that the 2 hunters independently could re
 
 ### Results
 
-- Additional sensation from other agent is beneficial only if it is relevant and sufficient for learning, because may get lost due to insufficient sensation. (Independent may perform better)
-- Cooperation via learned policies or episodes speeds up learning, but no impact on asymptotic performance and added cost of communication.
-- Cooperative agents can reach highest level for joint tasks, something never achievable by independent agents. Though they start slow, they achieve greater results.
+- Additional sensation from other agent is beneficial only if it is relevant and sufficient for learning. Otherwise, the hunter may get lost due to insufficient sensation, and independent agent may end up performing superior.
+- Cooperation via learned policies or episodes speeds up learning, but doesn't impact the asymptotic performance. There's always the added cost of communication to be considered.
+- Cooperative agents can reach highest level for joint tasks, something never achievable by independent agents. Though they start slow, they improve to exceed the independent agents.
 
 > If cooperation is done intelligently, each agent can benefit from other agents’ instantaneous information, episodic experience, and learned knowledge.
 
@@ -106,7 +107,7 @@ Even for the 1 prey-task, one may feel that the 2 hunters independently could re
 
 * RL agents can learn cooperative behavior in a simulated social environment. Can be applied to cooperation among autonomous learning agents.
 * Cooperative RL agents can learn faster and converge sooner than independent agents via sharing learned policies or solution episodes. They can also broaden their sensation via mutual scouting, and can handle joint tasks via sensing other partners.
-*** Extra sensory information can interfere with learning, sharing knowledge or episodes comes with a communication cost, and it takes a larger state space to learn cooperative behavior for joint tasks.
+* Extra sensory information can interfere with learning, sharing knowledge or episodes comes with a communication cost, and it takes a larger state space to learn cooperative behavior for joint tasks.
 
 ## Open Questions
 
