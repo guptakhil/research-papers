@@ -34,7 +34,7 @@ CS-3. Learned decision policies.
 
     <img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%207.24.01%20PM.png" height="80" width="360"></img>
 
-* In each time step, the agent updates Q(x, a) by recursively discounting future utilities and weighing them by positive learning rate <i>beta</i>.
+* In each time step, the agent updates Q(x, a) by recursively discounting future utilities and weighing them by positive learning rate <i><b>beta</b></i>.
   
     <img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%207.25.51%20PM.png" height="150" width="500"></img>
 
@@ -45,11 +45,15 @@ CS-3. Learned decision policies.
 - Hunter agents seek to capture randomly moving prey agents in a 10*10 grid world.<br>
 - On each time step, agents have four options to choose from i.e. move up, down, right or left.<br>
 - More than one agent can occupy the same cell.<br>
-- Reward for catching prey is +1. And, reward for a move without catching the prey is -0.1.
+- Reward for catching the prey is +1. And, reward for a move without catching the prey is -0.1.
 
-Each hunter’s sensation is represented by (x, y) where (x, y) is the relative distance of the closest prey to the hunter according to its x(y) axis.<br><br>
-Each run consists of a sequence of trials. Each trial ended when the first prey was captured. Each run was given a sufficient number of trials until the decision policies of hunters converged, i.e. the performance of hunters stabilized.<br><br>
-After convergence, the average number of time steps per trial where actions were selected by the highest Q value, over at least 1000 trials. Results averaged over at least 5 runs.
+##### Evaluation Strategy
+* Each hunter’s sensation is represented by (x, y) where (x, y) is the relative distance of the closest prey to the hunter according to its x(y) axis.<br>
+* Each run consists of a sequence of trials. 
+    * Each trial ended when the first prey was captured. 
+    * Each run was given a sufficient number of trials until the decision policies of hunters converged, i.e. the performance of hunters stabilized.<br>
+* After convergence, the average number of time steps per trial where actions were selected by the highest Q value, over at least 1000 trials. 
+    * Results averaged over at least 5 runs.
 
 #### Case Study 1 - <i>Sharing Sensation</i>
 
