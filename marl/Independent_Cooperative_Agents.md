@@ -47,7 +47,7 @@ CS-3. Learned decision policies.
 - More than one agent can occupy the same cell.<br>
 - Reward for catching the prey is +1. And, reward for a move without catching the prey is -0.1.
 
-##### Evaluation Strategy
+#### Evaluation Strategy
 * Each hunter’s sensation is represented by (x, y) where (x, y) is the relative distance of the closest prey to the hunter according to its x(y) axis.<br>
 * Each run consists of a sequence of trials. 
     * Each trial ended when the first prey was captured. 
@@ -57,19 +57,14 @@ CS-3. Learned decision policies.
 
 #### Case Study 1 - <i>Sharing Sensation</i>
 
-Sensory information from another (scouting) agent is beneficial if the information is relevant and sufficient for learning.<br>
-Construct:<br>
-- One prey and one hunter task with a scouting agent that cannot prey.
-- Scout makes random moves.
-- Sensation from the scout is helpful as there is a limit on the visual field for hunter.
-- If the hunter doesn't get a sensation, scout's sensation is leveraged for information.
+- One prey / one hunter task with a scouting agent that cannot prey, but makes random moves.
+- There is a visual field limit to the sensation captured by the hunter about the prey.
+- If the hunter doesn't get a sensation owing to range limits, scout's sensation can be leveraged for relevant information.
 
 <img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%207.47.22%20PM.png" width="650" height="300"></img>
 
-<b>Results (CS1)</b> - <br>
-- As the scout’s visual field depth increases, the difference in their performance increases.
+- As the scout’s visual field depth increases, the difference in performance of non-scouting vs. scouting increases.
 - However, when the visual field depth was limited to 2, <i><u>sharing sensory information hindered training</i></u> because a short-sighted scout couldn’t stay with the prey long enough for the other hunter to learn to catch up with the prey.
-- Sensory information from another agent should be used prudently, and extra, insufficient information can interfere with learning. Scouting also incurs communication cost.
 
 #### Case Study 2 - <i>Sharing Policies or Episodes</i>
 
