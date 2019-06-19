@@ -20,13 +20,13 @@
 
 ### How?
 
-> Compares performance of <i>n</i> cooperative agents with the performance of <i>n</i> independent agents.
-<br>
-Using Independent Agents as a benchmark, cooperative agents can communicate in terms of:
+> Compares performance of <i><b>n</b></i> cooperative agents with that of <i><b>n</b></i> independent agents.
 
-1. Instantaneous information such as sensation (S), actions (A), or rewards (R).
-2. Episodes that are sequences of SAR triplets experienced by agents.
-3. Learned decision policies.
+Using independent agents as a benchmark, cooperative agents can communicate in these forms:
+
+CS-1. Instantaneous information such as sensation (S), actions (A), or rewards (R).<br>
+CS-2. Episodes that are sequences of SAR triplets experienced by agents.<br>
+CS-3. Learned decision policies.
 
 ### RL Formulation
 
