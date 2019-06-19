@@ -61,24 +61,24 @@ CS-3. Learned decision policies.
 - There is a visual field limit to the sensation captured by the hunter about the prey.
 - If the hunter doesn't get a sensation owing to range limits, scout's sensation can be leveraged for relevant information.
 
-<img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%207.47.22%20PM.png" width="650" height="300"></img>
+<img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%207.47.22%20PM.png" width="600" height="250"></img>
 
-- As the scout’s visual field depth increases, the difference in performance of non-scouting vs. scouting increases.
+- As the scout’s visual field depth increases, the difference in performance compared to no-scouting increases.
 - However, when the visual field depth was limited to 2, <i><u>sharing sensory information hindered training</i></u> because a short-sighted scout couldn’t stay with the prey long enough for the other hunter to learn to catch up with the prey.
 
 #### Case Study 2 - <i>Sharing Policies or Episodes</i>
 
-Instead of sharing sensation, if the agent is adequate to accomplish the task, does cooperation help? 
-Use the same decision policy
-Exchange their individual policies at certain frequencies
-Such cooperative agents can speed up learning, measured by the average number of steps in training, even though they reach the same asymptotic performance as individual agents.
+Agents may use the same decision policy or exchange their individual policies at certain frequencies.
 
 <img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%208.00.31%20PM.png" width="600" height="500"></img>
 
 - When the two hunters used the same policy, they converged much quicker than two independent agents.
-- If agents perform the same task, their decision policies during learning can differ because they may have explored the different parts of a state space. They can complement each other by exchanging policies and use what the other agent had already learned for its own benefit. Assumed that agents average their policies at certain frequencies. (10, 50 and 200 steps)
-- Caveat: Information communicated by each policy-exchanging agent per step is bounded by (N-1)*F*P where N = hunters, P = size of policy, F = frequency of policy exchanging. When P and F are large, communication can be costly.
-Policy exchanging can selectively choose what decisions of the other agent to consider.
+- If agents perform the same task, their decision policies during learning can differ because they may have explored the different parts of a state space. 
+    - They can complement each other by exchanging policies and use what the other agent had already learned for its own benefit. 
+    - Assumed that agents average their policies at certain frequencies. (10, 50 and 200 steps)
+- <b>Caveat:</b> Information communicated by each policy-exchanging agent per step is bounded by <i>(N-1) * F * P</i> where N = hunters, P = size of policy, F = frequency of policy exchanging. 
+    - When P and F are large, communication can be costly.
+    - Policy exchanging can selectively choose what decisions of the other agent to consider.
 
 Episode refers to the capture of prey by a hunter. Post that, the entire solution is transfered. Exchanging episodes	can be used by heterogeneous RL agents i.e. with different visual field depths.
 
