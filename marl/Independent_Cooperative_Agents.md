@@ -95,5 +95,25 @@ Problem with independent hunters is that they ignore each other. They start slow
 
 Even for the 1 prey-task, one may feel that the 2 hunters independently could reach the prey. But, knowing the whereabouts of the partner, hunter can learn better herding techniques.
 
+### Results
+
+- Additional sensation from other agent is beneficial only if it is relevant and sufficient for learning, because may get lost due to insufficient sensation. (Independent may perform better)
+- Cooperation via learned policies or episodes speeds up learning, but no impact on asymptotic performance and added cost of communication.
+- Cooperative agents can reach highest level for joint tasks, something never achievable by independent agents. Though they start slow, they achieve greater results.
+
+> If cooperation is done intelligently, each agent can benefit from other agents’ instantaneous information, episodic experience, and learned knowledge.
+
 ### Conclusion
 
+* RL agents can learn cooperative behavior in a simulated social environment. Can be applied to cooperation among autonomous learning agents.
+* Cooperative RL agents can learn faster and converge sooner than independent agents via sharing learned policies or solution episodes. They can also broaden their sensation via mutual scouting, and can handle joint tasks via sensing other partners.
+*** Extra sensory information can interfere with learning, sharing knowledge or episodes comes with a communication cost, and it takes a larger state space to learn cooperative behavior for joint tasks.
+
+## Open Questions
+
+- Sensation must be selective. Heuristic used is that each hunter pays attention to the nearest prey or hunter. Can such selective sensation be learned?
+- Generalization techniques for reduction of state space and improved performance on complex and noisy tasks.
+- How can learning be more focused? It would take a long time if the prey was smart enough to know how to escape.
+- Cost of communication information can explode with slight increase in state space. Can agents learn to communicate?
+- Other cooperative methods?
+- Can homogenous agents learn to divide job or specialize differently? Can heterogenous agents (scouting agents vs. blind hunting agents) cooperate?
