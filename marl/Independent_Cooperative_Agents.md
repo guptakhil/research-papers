@@ -30,7 +30,7 @@ CS-3. Learned decision policies.
 
 ### RL Formulation
 
-* Each RL agent uses one-step Q-learning algorithm. The agent selects each action <i>a</i> with a probability given by the Boltzmann distribution:
+* Each RL agent uses one-step <b>Q-learning</b> algorithm. The agent selects each action <i><b>a</b></i> with a probability given by the <i>Boltzmann distribution</i>:
 
     <img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%207.24.01%20PM.png" height="80" width="360"></img>
 
