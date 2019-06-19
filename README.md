@@ -1,4 +1,4 @@
-Short summaries of some of the game-changing research papers in the field of Artificial Intelligence and Machine Learning.
+Short summaries of some game-changing research papers in the field of Artificial Intelligence and Machine Learning.
 
 ## Reinforcement Learning
 
