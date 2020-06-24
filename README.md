@@ -24,6 +24,23 @@ Short summaries of some game-changing research papers in the field of Artificial
 - <b> NIPS Workshop, 2019</b>: [How to Incorporate Monotonicity in Deep Networks While Preserving Flexibility?](https://arxiv.org/abs/1909.10662v3)
 - <b> AISTATS, 2020</b>: [Deontological Ethics By Monotonicity Shape Constraints](http://proceedings.mlr.press/v108/wang20e.html)
 
+## Federated Learning
+
+- <b> arXiv, 2019</b>: [Advances and Open Problems in Federated Learning](https://arxiv.org/abs/1912.04977)
+
+### Optimization
+
+- <b>AISTATS, 2017</b>: [Communication-Efficient Learning of Deep Networks from Decentralized Data](http://proceedings.mlr.press/v54/mcmahan17a)
+- <b>arXiv, 2018</b>: [Federated Learning with Non-IID Data](https://arxiv.org/abs/1806.00582)
+- <b>arXiv, 2019</b>: [Measuring the Effects of Non-Identical Data Distribution for Federated Visual Classification](https://arxiv.org/abs/1909.06335)
+- <b>arXiv, 2019</b>: [SCAFFOLD: Stochastic Controlled Averaging for Federated Learning](https://arxiv.org/abs/1910.06378)
+- <b>arXiv, 2019</b>: [Accelerating Federated Learning via Momentum Gradient Descent](https://arxiv.org/abs/1910.03197)
+- <b>NIPS Workshop, 2019</b>: [Overcoming Forgetting in Federated Learning on Non-IID Data](https://arxiv.org/abs/1910.07796)
+- <b>arXiv, 2020</b>: [Faster On-Device Training Using New Federated Momentum Algorithm](https://arxiv.org/abs/2002.02090)
+- <b>MLSys, 2020</b>: [Federated Optimization in Heterogeneous Networks](https://proceedings.mlsys.org/static/paper_files/mlsys/2020/176-Paper.pdf)
+- <b>arXiv, 2020</b>: [Adaptive Federated Optimization](https://arxiv.org/abs/2003.00295)
+- <b>ICLR, 2020</b>: [On the Convergence of FedAvg on Non-IID Data](https://openreview.net/forum?id=HJxNAnVtDS)
+
 ## Reinforcement Learning
 
 - <b>ICML 1993</b>: [Multi-Agent Reinforcement Learning: Independent vs. Cooperative Agents](https://github.com/guptakhil12/research-papers/blob/master/marl/Independent_Cooperative_Agents.md)
