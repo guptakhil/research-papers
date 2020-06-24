@@ -1,4 +1,4 @@
-Short summaries of some game-changing research papers in the field of Artificial Intelligence and Machine Learning.
+Short summaries of some game-changing research papers in the field of AI and ML.
 
 ## Monotonicity in Neural Networks
 
@@ -18,10 +18,10 @@ Short summaries of some game-changing research papers in the field of Artificial
 - <b>NIPS, 2016</b>: [Fast and Flexible Monotonic Functions with Ensembles of Lattices](https://papers.nips.cc/paper/6377-fast-and-flexible-monotonic-functions-with-ensembles-of-lattices)
 - <b>NIPS, 2017</b>: [Deep Lattice Networks and Partial Monotonic Functions](https://papers.nips.cc/paper/6891-deep-lattice-networks-and-partial-monotonic-functions)
 - <b>Neurocomputing, 2017</b>: [Monotonic classification extreme learning machine](https://dl.acm.org/doi/10.1016/j.neucom.2016.11.021)
-- <b>NIPS, 2019</b>: [Unconstrained Monotonic Neural Networks](https://papers.nips.cc/paper/8433-unconstrained-monotonic-neural-networks)
+- <b>NeurIPS, 2019</b>: [Unconstrained Monotonic Neural Networks](https://papers.nips.cc/paper/8433-unconstrained-monotonic-neural-networks)
 - <b>Neurocomputing, 2019</b>: [Monotonic classification: An overview on algorithms, performance measures and data sets](https://www.sciencedirect.com/science/article/pii/S0925231219302383)
 - <b>arXiv, 2019</b>: [MonoNet: Towards Interpretable Models by Learning Monotonic Features](https://arxiv.org/abs/1909.13611)
-- <b> NIPS Workshop, 2019</b>: [How to Incorporate Monotonicity in Deep Networks While Preserving Flexibility?](https://arxiv.org/abs/1909.10662v3)
+- <b> NeurIPS Workshop, 2019</b>: [How to Incorporate Monotonicity in Deep Networks While Preserving Flexibility?](https://arxiv.org/abs/1909.10662v3)
 - <b> AISTATS, 2020</b>: [Deontological Ethics By Monotonicity Shape Constraints](http://proceedings.mlr.press/v108/wang20e.html)
 
 ## Federated Learning
@@ -35,7 +35,7 @@ Short summaries of some game-changing research papers in the field of Artificial
 - <b>arXiv, 2019</b>: [Measuring the Effects of Non-Identical Data Distribution for Federated Visual Classification](https://arxiv.org/abs/1909.06335)
 - <b>arXiv, 2019</b>: [SCAFFOLD: Stochastic Controlled Averaging for Federated Learning](https://arxiv.org/abs/1910.06378)
 - <b>arXiv, 2019</b>: [Accelerating Federated Learning via Momentum Gradient Descent](https://arxiv.org/abs/1910.03197)
-- <b>NIPS Workshop, 2019</b>: [Overcoming Forgetting in Federated Learning on Non-IID Data](https://arxiv.org/abs/1910.07796)
+- <b>NeurIPS Workshop, 2019</b>: [Overcoming Forgetting in Federated Learning on Non-IID Data](https://arxiv.org/abs/1910.07796)
 - <b>arXiv, 2020</b>: [Faster On-Device Training Using New Federated Momentum Algorithm](https://arxiv.org/abs/2002.02090)
 - <b>MLSys, 2020</b>: [Federated Optimization in Heterogeneous Networks](https://proceedings.mlsys.org/static/paper_files/mlsys/2020/176-Paper.pdf)
 - <b>arXiv, 2020</b>: [Adaptive Federated Optimization](https://arxiv.org/abs/2003.00295)
