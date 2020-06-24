@@ -11,7 +11,7 @@
 ### What?
 
 * Non-linear ML models can violate social norms or [deontological ethical](https://en.wikipedia.org/wiki/Deontological_ethics) principles.
-* Incorporating monotone behavior in ML models via shape constraints can help in overcoming this.
+* Incorporating monotone behavior in ML models via [shape constraints](https://www.ruhr-uni-bochum.de/mathematik3/en/team/arbeitsgruppen/shape.html#:~:text=Such%20information%20is%20called%20%22shape,dose%20response%20or%20growth%20curves.) can help in overcoming this.
 * Moreover, these deontological constraints can be related to commonly known notions of statistical fairness (parity and equal opportunity).
 * In general, monotonicity shape constraints helps accelerate progress towards a trustworthy and responsible AI.
 
