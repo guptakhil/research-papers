@@ -22,7 +22,7 @@ Short summaries of some game-changing research papers in the field of AI and ML.
 - <b>Neurocomputing, 2019</b>: [Monotonic classification: An overview on algorithms, performance measures and data sets](https://www.sciencedirect.com/science/article/pii/S0925231219302383)
 - <b>arXiv, 2019</b>: [MonoNet: Towards Interpretable Models by Learning Monotonic Features](https://arxiv.org/abs/1909.13611)
 - <b> NeurIPS Workshop, 2019</b>: [How to Incorporate Monotonicity in Deep Networks While Preserving Flexibility?](https://arxiv.org/abs/1909.10662v3)
-- <b> AISTATS, 2020</b>: [Deontological Ethics By Monotonicity Shape Constraints](http://proceedings.mlr.press/v108/wang20e.html)
+- <b> AISTATS, 2020</b>: [Deontological Ethics By Monotonicity Shape Constraints](https://github.com/guptakhil/research-papers/blob/master/monotonicity/deontological_ethics_shape_constraints.md) :heavy_check_mark:
 
 ## Federated Learning
 
@@ -43,6 +43,6 @@ Short summaries of some game-changing research papers in the field of AI and ML.
 
 ## Reinforcement Learning
 
-- <b>ICML 1993</b>: [Multi-Agent Reinforcement Learning: Independent vs. Cooperative Agents](https://github.com/guptakhil12/research-papers/blob/master/marl/Independent_Cooperative_Agents.md)
+- <b>ICML 1993</b>: [Multi-Agent Reinforcement Learning: Independent vs. Cooperative Agents](https://github.com/guptakhil/research-papers/blob/master/marl/Independent_Cooperative_Agents.md) :heavy_check_mark:
 
 <!--- <b>KDD, 2002</b>: [Classification Trees for Problems with Monotonicity Constraints](https://www.kdd.org/exploration_files/potharst.pdf) --->
