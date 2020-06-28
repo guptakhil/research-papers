@@ -32,15 +32,15 @@ CS-3. Learned decision policies.
 
 * Each RL agent uses one-step <b>Q-learning</b> algorithm. The agent selects each action <i><b>a</b></i> with a probability given by the <i>Boltzmann distribution</i>:
 
-    <img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%207.24.01%20PM.png" height="80" width="360"></img>
+    <img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/marl_independent_cooperative_1.png" height="80" width="360"></img>
 
 * In each time step, the agent updates Q(x, a) by recursively discounting future utilities and weighing them by positive learning rate <i><b>beta</b></i>.
   
-    <img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%207.25.51%20PM.png" height="150" width="500"></img>
+    <img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/marl_independent_cooperative_2.png" height="150" width="500"></img>
 
 ### Task Description for Case Study
 
-<img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%207.27.46%20PM.png" height="200" width="300"></img>
+<img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/marl_independent_cooperative_3.png" height="200" width="300"></img>
 
 - Hunter agents seek to capture randomly moving prey agents in a 10*10 grid world.<br>
 - On each time step, agents have four options to choose from i.e. move up, down, right or left.<br>
@@ -61,7 +61,7 @@ CS-3. Learned decision policies.
 - There is a visual field limit to the sensation captured by the hunter about the prey.
 - If the hunter doesn't get a sensation owing to range limits, scout's sensation can be leveraged for relevant information.
 
-<img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%207.47.22%20PM.png" width="600" height="250"></img>
+<img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/marl_independent_cooperative_4.png" width="600" height="250"></img>
 
 - As the scout’s visual field depth increases, the difference in performance compared to no-scouting increases.
 - However, when the visual field depth was limited to 2, <i><u>sharing sensory information hindered training</i></u> because a short-sighted scout couldn’t stay with the prey long enough for the other hunter to learn to catch up with the prey.
@@ -70,7 +70,7 @@ CS-3. Learned decision policies.
 
 Agents may use the same decision policy or exchange their individual policies at certain frequencies.
 
-<img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%208.00.31%20PM.png" width="600" height="500"></img>
+<img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/marl_independent_cooperative_5.png" width="600" height="500"></img>
 
 - When the two hunters used the same policy, they converged much quicker than two independent agents.
 - If agents perform the same task, their decision policies during learning can differ because they may have explored the different parts of a state space. 
@@ -83,7 +83,7 @@ Agents may use the same decision policy or exchange their individual policies at
 Episode refers to the capture of prey by a hunter.<br>
 Post that, the entire solution is transfered. Exchanging episodes can be used by heterogeneous RL agents i.e. with different visual field depths.
 
-<img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%208.18.32%20PM.png" height="350" width="350"></img>
+<img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/marl_independent_cooperative_6.png" height="350" width="350"></img>
 
 #### Case Study 3 - <i>Joint Tasks</i>
 
@@ -91,7 +91,7 @@ Post that, the entire solution is transfered. Exchanging episodes can be used by
 - Hunters cooperate by either <b>passively observing each other</b> or <b>actively sharing their sensations and locations</b>. It’s demonstrated that cooperative agents can learn to perform the joint task significantly better than independent agents although they start slowly.<br>
 - Problem with independent hunters is that they ignore each other. They start slow, but such passively-observing hunters began to overtake the independent hunters after 400 trials, eventually getting reduced to 49 average steps. SImilar is observed for mutually scouting hunters.
 
-<img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/Screenshot%202019-06-19%20at%208.26.46%20PM.png" height="400" width="800"></img>
+<img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/marl_independent_cooperative_7.png" height="400" width="800"></img>
 
 Even for the 1 prey-task, one may feel that the 2 hunters independently could reach the prey. But, knowing the whereabouts of the partner, hunter can learn better herding techniques.
 

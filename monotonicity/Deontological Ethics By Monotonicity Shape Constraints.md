@@ -31,7 +31,7 @@ Such monotonicity shape restrictions are referred to _ceterus paribus_ in nature
 1. __Resume Score (UP):__ Based on the candidate's years of experience, best fit model (dotted purple line below) sometimes penalizes candidates for having <i>more</i> job experience. The model picks the age discrimination in the biased training samples.
     * Monotonicity shape constraints (blue line) guarantee that model uses job experience as __positive__ evidence.
     
-<img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/deontological_resume_example.png" height="150" width="375"></img>
+<img src="https://raw.githubusercontent.com/guptakhil/research-papers/master/images/deontological_resume_example.png" height="150" width="375"></img>
     
 > Such unfair responses are very much a danger in sparse regions of a feature space with modern over-parameterized nonlinear models.
  
@@ -39,7 +39,7 @@ Such monotonicity shape restrictions are referred to _ceterus paribus_ in nature
 by penalizing people for higher GPA or rewarding for lower GPA. (__objectionable model__)
     * Training a monotone calibrated linear model helps the cause, with similar test accuracy compared to DNN and GBT.
     
-<img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/deontological_law_example.png" height="225" width="1200"></img>
+<img src="https://raw.githubusercontent.com/guptakhil/research-papers/master/images/deontological_law_example.png" height="225" width="1200"></img>
     
 > Non-uniform distribution of the training data means that some regions of the feature space were sparse and model may have overfit.
 
@@ -88,7 +88,7 @@ So, the bound on statistical parity becomes a bound on the marginal probabilitie
 
 3. __Equal opportunity:__ Less discussion has been provided on this in the paper. Read Lemma 4 for specific details of the bound.
 
-<img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/deontological_fairness_definitions.png" height="175" width="400"></img>
+<img src="https://raw.githubusercontent.com/guptakhil/research-papers/master/images/deontological_fairness_definitions.png" height="175" width="400"></img>
 
 ### Experiments
 
@@ -125,7 +125,7 @@ In this case, monotonicity constraints to prefer poorer schools and greater stud
 * For comparison to statistical fairness, empirical values of OSSP and equal opportunity are shown below. 
 Note that the monotonically constrained models do lower violations of both fairness goals. Improvement is smaller when model had all features than just 2 features.
 
-<img src="https://raw.githubusercontent.com/guptakhil12/research-papers/master/images/deontological_fairness_results.png" height="175" width="400"></img>
+<img src="https://raw.githubusercontent.com/guptakhil/research-papers/master/images/deontological_fairness_results.png" height="175" width="400"></img>
 
 ### Conclusion
 
