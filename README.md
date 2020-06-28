@@ -1,4 +1,6 @@
-Short summaries of some game-changing research papers in the field of AI and ML.
+#### __Summaries__ and __annotations__ of research papers across broad spectrum of AI and ML.
+
+:heavy_check_mark: indicates that _summary_ is available.
 
 ## Monotonicity in Neural Networks
 
@@ -22,7 +24,15 @@ Short summaries of some game-changing research papers in the field of AI and ML.
 - <b>Neurocomputing, 2019</b>: [Monotonic classification: An overview on algorithms, performance measures and data sets](https://www.sciencedirect.com/science/article/pii/S0925231219302383)
 - <b>arXiv, 2019</b>: [MonoNet: Towards Interpretable Models by Learning Monotonic Features](https://arxiv.org/abs/1909.13611)
 - <b> NeurIPS Workshop, 2019</b>: [How to Incorporate Monotonicity in Deep Networks While Preserving Flexibility?](https://arxiv.org/abs/1909.10662v3)
-- <b> AISTATS, 2020</b>: [Deontological Ethics By Monotonicity Shape Constraints](https://github.com/guptakhil/research-papers/blob/master/monotonicity/deontological_ethics_shape_constraints.md) :heavy_check_mark:
+- <b> AISTATS, 2020</b>: [Deontological Ethics By Monotonicity Shape Constraints](https://github.com/guptakhil/research-papers/blob/master/monotonicity/deontological_ethics_shape_constraints.md) ([Annotated](https://github.com/guptakhil/research-papers/blob/master/monotonicity/Deontological%20Ethics%20By%20Monotonicity%20Shape%20Constraints%20-%20Annotated.pdf)) :heavy_check_mark:
+
+## Reinforcement Learning
+
+- <b>ICML 1993</b>: [Multi-Agent Reinforcement Learning: Independent vs. Cooperative Agents](https://github.com/guptakhil/research-papers/blob/master/marl/Independent_Cooperative_Agents.md) :heavy_check_mark:
+
+### Applications
+
+- <b>ICML Workshop, 2019</b>: [Autonomous Airline Revenue Management: A Deep Reinforcement Learning Approach to Seat Inventory Control and Overbooking](https://arxiv.org/abs/1902.06824) ([Annotated](https://github.com/guptakhil/research-papers/blob/master/marl/Autonomous%20Airline%20Revenue%20Management-%20A%20Deep%20Reinforcement%20Learning%20Approach%20to%20Seat%20Inventory%20Control%20and%20Overbooking%20-%20Annotated.pdf))
 
 ## Federated Learning
 
@@ -40,9 +50,5 @@ Short summaries of some game-changing research papers in the field of AI and ML.
 - <b>MLSys, 2020</b>: [Federated Optimization in Heterogeneous Networks](https://proceedings.mlsys.org/static/paper_files/mlsys/2020/176-Paper.pdf)
 - <b>arXiv, 2020</b>: [Adaptive Federated Optimization](https://arxiv.org/abs/2003.00295)
 - <b>ICLR, 2020</b>: [On the Convergence of FedAvg on Non-IID Data](https://openreview.net/forum?id=HJxNAnVtDS)
-
-## Reinforcement Learning
-
-- <b>ICML 1993</b>: [Multi-Agent Reinforcement Learning: Independent vs. Cooperative Agents](https://github.com/guptakhil/research-papers/blob/master/marl/Independent_Cooperative_Agents.md) :heavy_check_mark:
 
 <!--- <b>KDD, 2002</b>: [Classification Trees for Problems with Monotonicity Constraints](https://www.kdd.org/exploration_files/potharst.pdf) --->
