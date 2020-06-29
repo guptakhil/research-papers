@@ -29,6 +29,7 @@
 ## Reinforcement Learning
 
 - <b>ICML 1993</b>: [Multi-Agent Reinforcement Learning: Independent vs. Cooperative Agents](https://github.com/guptakhil/research-papers/blob/master/reinforcement_learning/MARL%20-%20Independent%20vs%20Cooperative%20Agents.md) :heavy_check_mark:
+- <b>NIPS Workshop, 2013</b>: [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602) ([Annotated](https://github.com/guptakhil/research-papers/blob/master/reinforcement_learning/Playing%20Atari%20with%20Deep%20Reinforcement%20Learning%20-%20Annotated.pdf))
 
 ### Applications
 
